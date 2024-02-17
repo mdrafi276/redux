@@ -9,7 +9,7 @@ const Counter = () => {
     return (
       <div>
         <div className="w-full  flex justify-center items-center ">
-          <div className="w-[400px] h-[400px] bg-[#f8f4ff] rounded-ful mt-28">
+          <div className="w-[400px] h-[400px] bg-[#f8f4ff] rounded-[50px] mt-28">
             <button onClick={() => dispatch(incrementByValue(5))}>Increment By 5</button>
             <button onClick={() => dispatch(increment())}>Increment</button>
             <div>
